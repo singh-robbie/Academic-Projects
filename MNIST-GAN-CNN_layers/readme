@@ -1,3 +1,37 @@
 Frameword: Generative Adversarial Network 
 Dataset: MNIST
 Layers: Conv2d and ConvTranspose2d
+
+Model:
+GAN(
+  (generator): Sequential(
+    (0): Linear(in_features=100, out_features=3136, bias=False)
+    (1): BatchNorm1d(3136, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): LeakyReLU(negative_slope=0.0001, inplace=True)
+    (3): Reshape1()
+    (4): ConvTranspose2d(64, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+    (5): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (6): LeakyReLU(negative_slope=0.0001, inplace=True)
+    (7): ConvTranspose2d(32, 16, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+    (8): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): LeakyReLU(negative_slope=0.0001, inplace=True)
+    (10): ConvTranspose2d(16, 8, kernel_size=(3, 3), stride=(1, 1), bias=False)
+    (11): BatchNorm2d(8, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): LeakyReLU(negative_slope=0.0001, inplace=True)
+    (13): ConvTranspose2d(8, 1, kernel_size=(2, 2), stride=(1, 1), bias=False)
+    (14): Tanh()
+  )
+  (discriminator): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+    (1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): LeakyReLU(negative_slope=0.0001, inplace=True)
+    (3): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (4): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): LeakyReLU(negative_slope=0.0001, inplace=True)
+    (6): Conv2d(16, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+    (7): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (8): LeakyReLU(negative_slope=0.0001, inplace=True)
+    (9): Flatten()
+    (10): Linear(in_features=1568, out_features=1, bias=True)
+  )
+)
