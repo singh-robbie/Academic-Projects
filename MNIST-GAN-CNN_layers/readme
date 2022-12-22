@@ -1,0 +1,3 @@
+Frameword: Generative Adversarial Network 
+Dataset: MNIST
+Layers: Conv2d and ConvTranspose2d
