@@ -1,0 +1,7 @@
+Architecture: Variational Autoencoder
+Dataset: CelebA
+Layers: Conv2d and ConvTranspose2d
+
+Latent space arithmetic: 
+    Diff = Average of smiling - Average of non-smiling
+    Modified image = Original image + diff
