@@ -1,0 +1,6 @@
+The attached code uses an Autoencoder to learn generate hand written digits. 
+In second part, noise is added to the inputs and it is observed that model perfectly outputs digits without any noise.
+
+
+Architecture: Autoencoder
+Dataset: MNIST
