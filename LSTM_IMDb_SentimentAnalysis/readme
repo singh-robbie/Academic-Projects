@@ -1,0 +1,4 @@
+The code uses LSTM layer to predict binary sentiments from IMDb reviews
+
+Architecture: LSTM (RNN) layers
+Dataset: Sentiment Analysis (IMDb reviews)
