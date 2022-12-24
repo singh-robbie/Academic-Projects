@@ -1,3 +1,5 @@
+The attached code implements a GAN on MNIST dataset to create handwritten digits
+
 Frameword: Generative Adversarial Network 
 Dataset: MNIST
 Layers: Conv2d and ConvTranspose2d
