@@ -1,3 +1,5 @@
+The attached code uses latent space arithmetic to modify celebrity faces to smile more or smile less on CelebA dataset 
+
 Architecture: Variational Autoencoder
 Dataset: CelebA
 Layers: Conv2d and ConvTranspose2d
