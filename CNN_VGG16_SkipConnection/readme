@@ -1,0 +1,4 @@
+The attached code implements Residual Network 'skip connections' to skip the 3rd and 4th block of model to improve performance
+
+Architecture: Convolutional Neural Network
+Dataset: VGG16
