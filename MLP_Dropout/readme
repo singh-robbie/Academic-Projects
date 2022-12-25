@@ -1,0 +1,5 @@
+The attached code studies the impact of dropout by implementing different levels of dropout on Neural Network. 
+It was observed that having dropout on each layer significantly improves generalisation which is seen in train/validation plots.
+
+Architecture: Multilayer Perceptron
+Dataset: MNIST
