@@ -1,0 +1,4 @@
+The attached code trains a model on CIFAR-10 dataset to predict the class of given image using Convolutional 2D layers
+
+Architecture: Convolutional Neural Network
+Dataset: CIFAR-10
