@@ -1,0 +1,20 @@
+Attached code performs multiclass classifcation with three randomly selected segments on Bible.txt dataset. 
+The idea here is to compare 14 classifiers on documents as binary, count, or tfidf vector.
+
+Dataset: Bible.txt
+Library: Sklearn
+Classifiers:
+  BernoulliNB
+  MultinomialNB
+  KNeighborsClassifier
+  NearestCentroid
+  LogisticRegression
+  LinearSVC
+  SVC
+  DecisionTreeClassifier
+  ExtraTreeClassifier
+  ExtraTreesClassifier
+  AdaBoostClassifier
+  RandomForestClassifier
+  Perceptron
+  MLPClassifier
