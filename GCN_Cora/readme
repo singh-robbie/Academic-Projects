@@ -1,0 +1,9 @@
+Dataset: Cora
+
+Description: 
+   Graph dataset that containing information about research papers and their citation relationships.
+   Consists of 2708 research papers, each represented as a node in a graph.
+   Edges between nodes represent one paper cites the other.
+   Each node has associated features, such as the paper's subject area, authors, and words in the paper's abstract.
+
+Model: Graph Convolutional Network
